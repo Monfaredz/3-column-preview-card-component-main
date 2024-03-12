@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #fcfcfc;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 50px auto;
+    height: 600px;
+}
+
+.card {
+    float: left;
+    width: 33.33%;
+    padding: 50px 50px;
+    height: 100%;
+
+
+
+}
+
+.card p,
+.card h2 {
+    padding: 30px 0;
+    text-align: left;
+    color: #fcfcfc;
+
+}
+
+.card p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 25px
+}
+
+
+.card h2 {
+    font-size: 60px;
+    padding-top: 40px;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+.card1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 25px 0 0 25px;
+}
+
+.card2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 25px 25px 0;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: white;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #333;
+    font-weight: bold;
+    margin: 0 auto;
+
+}
+
+@media (max-width: 800px) {
+    .card {
+        float: none;
+        margin: 0 auto;
+        width: 500px;
+    }
+
+    .container {
+        margin-bottom: 2rem;
+        height: 300vh;
+    }
+
+    .card1 {
+        border-radius: 25px 25px 0 0;
+    }
+
+    .card3 {
+        border-radius: 0 0 25px 25px;
+    }
+
+
+}
